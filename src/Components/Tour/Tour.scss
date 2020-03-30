@@ -1,0 +1,50 @@
+@import "../../index.scss";
+.tour {
+    border-radius: 0.7rem;
+    background-color: $mainGrey;
+    img {
+        width: 100%;
+        border-top-left-radius: 0.7rem;
+        border-top-right-radius: 0.7rem;
+    }
+    margin: 0.7rem 0;
+}
+.img-container{
+    position: relative;
+}
+.img-container i {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 1.2rem;
+    color: $mainGrey;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.img-container:hover i {
+    opacity: 1;
+}
+
+.tour-info {
+    padding: 1rem 0.5rem;
+    h3 {
+        text-transform: uppercase;
+        color: $mainGreen;
+        font-size: 2rem;
+    }
+    h4 {
+        text-transform: capitalize;
+        color: $mainBlack;
+        margin: 0.2rem 0 0.6rem 0;
+    }
+    h5 {
+        text-transform: capitalize;
+        span {
+            color: $mainGreen;
+            margin: 0.5rem;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+    }
+}
