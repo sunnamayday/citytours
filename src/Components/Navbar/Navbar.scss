@@ -1,7 +1,7 @@
 @import "../../index.scss";
 
 .navBar {
-    background: $mainBlack;
+    background: $mainWhite;
     display: grid;
     grid-template-columns: auto 1fr;
     padding: 0.5rem;
@@ -16,7 +16,7 @@
 }
 
 .nav-link{
-    color: $mainGrey;
+    color: $mainBlack;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 1.2rem;

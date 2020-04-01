@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types';
 import Logo from '../../logo.png';
 import "./Navbar.scss";
 /**
@@ -17,10 +16,10 @@ class Navbar extends Component {
                         <a href="/" className="nav-link">home</a>
                     </li>
                     <li>
-                        <a href="/" className="nav-link">about</a>
+                        <a href="/about" className="nav-link">about</a>
                     </li>
                     <li>
-                        <a href="/" className="nav-link active">tours</a>
+                        <a href="/tours" className="nav-link">tours</a>
                     </li>
                 </ul>
             </nav>

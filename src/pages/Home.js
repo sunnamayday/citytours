@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import Banner from '../Components/Banner/Banner';
+import Footer from '../Components/Footer/Footer';
+import Info from '../Components/Information/Info';
 
 /**
 * @author
@@ -7,7 +10,11 @@ import React from 'react'
 
 const Home = (props) => {
     return (
-        <div>Home</div>
+        <div>
+            <Banner />
+            <Info />
+            <Footer />
+        </div>
     )
 
 }
